@@ -1,0 +1,434 @@
+
+html{
+  --primary-color: #1F2DD9;
+  --accent: #E59F3C;
+  background-color: #F9F8FD;
+}
+
+.gridDesk{
+  display: none;
+}
+.banner-header{
+  height: 100vh;
+  background-image: url('assets/images/banner.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.blue-layer{
+  background-color: var(--primary-color);
+  opacity: 0.4;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  position: absolute;
+}
+.title{
+  font-size: 1.5em;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.header-container{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff
+}
+.large-title-container{
+  margin: 0 4.5em 0 4.5em;
+
+}
+.title-container{
+  margin: 0 1.5em 0 1.5em;
+  display: flex;
+  justify-content: center;
+}
+.title-container p{
+  margin: 1em 3em 0 3em;
+  font-size: 1.1em;
+  text-align: center;
+  line-height: 1.5;
+}
+nav{
+  width: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  z-index: 999;
+  display:flex;
+  justify-content: flex-end;
+}
+
+.brand{
+  width: 250px;
+  height: auto;
+  padding: 1.5em;
+}
+.banner-wave{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.circle-fill-accent{
+  position: absolute;
+  bottom: -15%;
+  left: -25%;
+  transform: scale(2);
+  opacity: 0.5;
+}
+
+.blue-title{
+  color: var(--primary-color);
+  display: inline-block;
+  flex-direction: column;
+}
+
+.subline-spell{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.subline-spell span{
+  width: 2em;
+  height: 6px;
+  background-color: var(--accent);
+}
+
+.subline-spell .negative{
+  width: 2em;
+  height: 6px;
+  background-color: #fff;
+}
+
+#formula-image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow-x: hidden;
+}
+
+#formula-image-container img:first-child{
+  transform: scale(0.8);
+}
+
+.circle-fill-primary{
+  position: absolute;
+  opacity: 0.5;
+  left: 85%;
+  transform: scale(1.5);
+  top:35%
+}
+
+.circle-fill-primary-top{
+  position: absolute;
+  opacity: 0.3;
+  left: 85%;
+  transform: scale(1.5);
+  top:-50%
+}
+
+.minired-top{
+  position: absolute;
+  left: 0;
+  top:-50%;
+  width: 25%;
+  transform: rotateX(180deg);
+}
+
+
+
+.accent-wave-top{
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 100%;
+}
+
+.formula-section{
+  margin-top: 4em;
+  position: relative;
+  height: 65vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#what-we-do-section{
+  background-color: var(--accent);
+  padding: 0 3em 1em 3em;
+  position: relative;
+}
+.cp{
+  text-align: center;
+  color: black;
+  opacity: 0.6;
+}
+.meetting{
+  height: 40vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#shape-middle{
+  position: absolute;
+  width: 90%;
+  top:25%
+}
+#union-w-m{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+#personal-inspiration{
+  color: var(--primary-color);
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0 2em 0 2em;
+}
+.top-wave{
+  top:-1px;
+  left:0;
+  position: absolute;
+}
+.bottom-wave{
+  bottom:-1px;
+  left:0;
+  position: absolute;
+  width: 101%;
+}
+.idk{
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+}
+.center-image{
+  position: absolute;
+}
+
+.red-float{
+  position: absolute;
+  right: 0%;
+  width: 50%;
+  top:100%
+}
+.red-rotated{
+  position: absolute;
+  transform: rotateZ(180deg);
+  transform: rotateY(180deg);
+  bottom: 0;
+  left: 0;
+  width: 50%;
+}
+.marcas-container{
+  height: 90vh;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+.partners-container{
+  background-color: #E7E6F7;
+}
+
+.red-rotated-2{
+  width: 50%;
+  transform: rotateZ(180deg);
+  margin-right: -25%;
+}
+.little-text{
+  font-size: 0.6em;
+}
+
+.little-text-xs{
+  font-size: 0.4em;
+}
+.footter{
+  background: #636363;
+}
+.link-container h3{
+  color:#fff;
+  font-size: 0.8em;
+}
+.cpy{
+  font-size: 0.4em;
+  color:#fff;
+  padding: 1.5em;
+}
+.nav-mobile{
+  background-color: var(--primary-color);
+  position: absolute;
+  top: 0%;
+  left: 0;
+  height: 85vh;
+  width: 4em;
+  border-radius: 0 2em 2em 0;
+}
+.primary-bg{
+  background-color: var(--primary-color);
+}
+.accent-bg{
+  background-color: var(--accent);
+}
+
+@media only screen and (min-width: 768px) {
+  .title{
+    font-size: 3em;
+  }
+  .large-title-container{
+    margin-left: 12em;
+    margin-right: 12em;
+    width: 45%;
+  }
+  .large-title-container p{
+    font-size: 1.5em;
+    margin-top: 1em;
+  }
+  nav{
+    justify-content: start;
+  }
+  .formula-section{
+    height: 90vh;
+  }
+  .formula-image-container{
+    width: 100%;
+  }
+  #formula-image-container{
+    display: flex;
+    flex:1;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    overflow-x: unset;
+  }
+  .circle-fill-accent{
+    left: 0;
+    transform: scale(3);
+    bottom: 0;
+  }
+  .circle-fill-primary{
+    top: 60%;
+    z-index: 9;
+    left:90%;
+    transform: scale(3)
+  }
+  .accent-wave-top{
+    position: absolute;
+    bottom: -10px;
+    left: 1px;
+    width: 100%;
+  }
+  .what-we-do-section{
+    padding: 0 5em 1em 5em;
+  }
+  .cp{
+    font-size: 1.2em;
+  }
+  .meetting{
+    height: 50vh;
+    width: 60vw;
+  }
+  #shape-middle{
+    position: absolute;
+    width: 40%;
+    top:20%;
+    left: 40%;
+  }
+  .idk{
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+  }
+  .gridDesk{
+    display: grid;
+  }
+  .op-container{
+    height: 40vh;
+  }
+  #circle-fill-accent-desk{
+    bottom: -40%;
+  }
+  .red-rotated{
+    width: 20%;
+  }
+  .red-rotated-2{
+    width: 25%;
+    left: 80%;
+  }
+  .minired-top{
+    position: absolute;
+    left: 0;
+    top:-120%;
+    width: 25%;
+    transform: rotateX(180deg);
+  }
+  .link-container h3{
+    font-size: 1em;
+    text-align: center;
+  }
+
+  .cpy{
+    font-size: 0.8em;
+  }
+  .bottom-wave{
+    left:3px;
+    width: 100%;
+  }
+  .center-image{
+    width: 150%;
+    max-width: 150%;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  .formula-section{
+    height: 110vh;
+  }
+  .center-image{
+    width: 180%;
+    max-width: 180%;
+  }
+  #shape-middle{
+    position: absolute;
+    width: 40%;
+    top:-15%;
+    left: 40%;
+  }
+  .red-rotated-2{
+    width: 15%;
+    top:-20%;
+    right: -25%;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .minired-top{
+    bottom: -20%;
+    width: 15%;
+    z-index: -1;
+  }
+  .marcas-container{
+    height: auto;
+  }
+  .circle-fill-primary-top{
+    position: absolute;
+    opacity: 0.3;
+    left: 95%;
+    transform: scale(2);
+    bottom: 0;
+    z-index: -1;
+  }
+}

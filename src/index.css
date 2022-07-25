@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: 'Max Rounded';
+      src: url('../public/assets/fonts/Maax\ Rounded.otf');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+  font-family: 'Max Rounded';
+  src: url('../public/assets/fonts/Maax\ Rounded\ Medium.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Max Rounded';
+  src: url('../public/assets/fonts/Maax\ Rounded\ Bold.otf');
+  font-weight: bolder;
+}
+@layer base {
+  html {
+    font-family: Maax Rounded;
+  }
+}
